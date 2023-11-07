@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lilita+One&family=Rowdies&family=Young+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Kaushan+Script&family=Lilita+One&family=Rowdies&family=Young+Serif&display=swap');
+*{
+    color: #fff;
+
+}
+h2{
+    font-family: 'Kaushan Script', cursive;
+    background: -webkit-linear-gradient(#b5edf7, #54d6f7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    background-color: #e0e0e0ad;
+}
+
+header {
+    background-color: #333;
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 1000px;
+    height: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #272726d5;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+   
+    
+    
+}
+
+.image {
+    width: 230px;
+    height:  230px;
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: cover;
+    border: 15px solid #444444;
+    box-shadow: 5px 7px 25px rgba(0, 0, 0, 0.5);
+    
+}
+
+.image img {
+    height: 100%;
+    width: 100%;
+    
+}
+.name p{
+    font-family:'Young Serif', serif;
+    font-size: 50px;
+    margin-top: -160px;
+    margin-left: 400px;
+    background: -webkit-linear-gradient(#f7c8a9, #f3b250);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;   
+    -webkit-text-stroke-color: rgb(12, 1, 1);
+}
+
+#about{
+    margin-top: 150px;
+}
+#about p{
+    font-family: 'Philosopher', sans-serif;
+    text-align: center;
+    line-height: 30px;
+}
+.detail table{
+    font-family: 'Philosopher', sans-serif;
+    padding-left: 100px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    line-height: 35px;
+    
+}
+.education ul{
+    padding-left: 115px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.education ul li{
+    font-family: 'Philosopher', sans-serif;
+    line-height: 25px;
+}
+.contact table{
+    
+    font-family: 'Philosopher', sans-serif;
+    padding-left: 100px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    line-height: 35px;
+}
+.contact a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.my-learning h3{
+    color: #919090;
+    margin-top: -5px;
+}
+.my-learning div{
+    display: inline-block;
+    flex-wrap: wrap;
+}
+.my-learning p{
+    background: -webkit-linear-gradient(#f7f3b5, #f7df54);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.my-learning .ms{
+    font-family: 'Philosopher', sans-serif;
+    margin-left: 200px;
+    margin-bottom: 10px;
+    padding: 5px 40px;
+    border: 1px solid #6d6c6cbb;
+    border-radius: 20px;
+    box-shadow: 5px 7px 15px rgba(151, 226, 240, 0.5);
+
+    
+}
+.my-learning .ibm{
+    font-family: 'Philosopher', sans-serif;
+    margin-left: 250px;
+    margin-bottom: 10px;
+    padding: 5px 40px;
+    border: 1px solid #6c6d6dbb;
+    border-radius: 20px;
+    box-shadow: 5px 7px 15px rgba(151, 226, 240, 0.5);
+}
+
+.line {
+    margin-top: 10px;
+    border: 2px solid #b1b0b0; /* 2px is the line size, you can adjust it */
+    width: 1000px; /* Adjust the width as needed */
+    height: 0; /* This keeps the line horizontal */
+   border-radius: 50%;
+  }
+  
+
+footer {
+    
+    text-align: center;
+    background-color: #333;
+    font-size: 15px;
+    padding: 0.5px;
+}
+
+
+/* Style for the scrollbar track */
+::-webkit-scrollbar {
+    width: 12px; 
+    background-color: transparent; 
+}
+
+/* Style for the scrollbar thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2); 
+    border-radius: 6px; 
+}
+
+/* Style for the scrollbar thumb when hovered */
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, 0.4); 
+}
+
+/* Style for the scrollbar track when the thumb is being dragged */
+::-webkit-scrollbar-thumb:active {
+    background-color: rgba(0, 0, 0, 0.6); 
+}
+
